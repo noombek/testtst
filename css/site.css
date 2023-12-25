@@ -19,18 +19,24 @@
   font-weight: normal;
   font-style: normal;
 }
+#header{
+  display: flex;
+  justify-content: space-between;
+}
 body {
   background-color: #EAEAEA;
-  background-image: url('../gfx/tile-nebula.jpg');
-  color: #eee;
   margin: 0;
   overflow-x: hidden;
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: column;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
 }
 ::-moz-selection {
   background-color: black;
@@ -267,6 +273,7 @@ button {
 #nav-right .blink-overlay {
   background-position: 80px 62px;
 }
+
 footer{
   bottom: 0;
   position: fixed;
@@ -335,26 +342,7 @@ footer{
   display: inline-block;
   position: absolute;
 }
-#footer {
-  color: rgb(253, 244, 52);
-  color: rgba(253, 244, 52, 0.83);
-  font-family: 'CaslonPro';
-  font-style: italic;
-  font-size: 17px;
-  text-shadow: 1px 1px 5px #555;
-  letter-spacing: 0.13em;
-  text-align: center;
-}
-#footer p {
-  margin: 1px;
-}
-#footer a {
-  color: inherit;
-  text-decoration: none;
-}
-#footer a:hover {
-  color: yellow;
-}
+
 
 /*
  * Info window
