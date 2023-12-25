@@ -28,8 +28,8 @@ body {
   margin: 0;
   overflow-x: hidden;
   display: flex;
-  flex-flow: column wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
