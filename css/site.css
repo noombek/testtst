@@ -115,11 +115,7 @@ body {
   height: 50px;
   margin: 0 7px;
 }
-@media screen and (max-width: 410px) {
-  .separator:last-of-type {
-    display: none;
-  }
-}
+
 #menu .link,
 #menu #social {
   vertical-align: 50%;
